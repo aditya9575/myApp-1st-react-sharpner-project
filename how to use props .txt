@@ -1,0 +1,9 @@
+first make some component and render it in app.jsx now if you need to have multiple different properties to be displayed in each of the 
+base component rendering so we just pass these properties as a parameter in the app.jsx inside where we render those components 
+
+And then -> we just go to that component and pass in props as function to it and dynamically do 
+{props.title} 
+{props.name} 
+{props.car}
+
+This is how it will work and the component will now render these properties as when we pass them on final component call in the app.jsx
